@@ -24,7 +24,7 @@ This study uses the **ABIDE I dataset** from the Preprocessed Connectomes Projec
 ### Atlases Used
 The following atlases were used to extract ROI-based features:
 - CC200
-- CC400
+- DOSENBACH160
 - AAL
 - EZ
 - TT
