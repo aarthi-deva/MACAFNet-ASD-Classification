@@ -2,7 +2,7 @@
 This script prepares ABIDE I preprocessed functional connectivity datasets for training and evaluation of the MACAFNet model. It supports multi-atlas ROI-based feature extraction and fold generation for cross-validation.
 
 ### Original Source:
-This computation of functional connectivity matrix is adapted from the MADE-for-ASD repository:
+The dataset download proceudre and computation of functional connectivity matrix is adapted from the MADE-for-ASD repository:
 https://github.com/hasan-rakibul/MADE-for-ASD
 
 ### Original Authors: Xuehan Liu et al.
