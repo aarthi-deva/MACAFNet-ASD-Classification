@@ -1,21 +1,27 @@
-# MACAFNet – Data Preparation Script for Multi-Atlas ASD Classification
-This script prepares ABIDE I preprocessed functional connectivity datasets for training and evaluation of the MACAFNet model. It supports multi-atlas ROI-based feature extraction and fold generation for cross-validation.
+## Run Instructions
 
-### Original Source:
-The dataset download proceudre and computation of functional connectivity matrix is adapted from the MADE-for-ASD repository:
-https://github.com/hasan-rakibul/MADE-for-ASD
+The notebook Execution_notebook.ipynb provides an end-to-end pipeline:
+  Download ABIDE dataset
+  Preprocess and extract multi-atlas features
+  Train MACAFNet model
+  Evaluate performance
 
-### Original Authors: Xuehan Liu et al.
+Run using Jupyter Notebook or Google Colab.
 
-## Modifications by Aarthi Devaraj:
-- Integrated support for multi-atlas feature extraction (CC200, AAL, HO, EZ, TT, Dosenbach160)
-- Adapted preprocessing pipeline for MACAFNet architecture
-- Added structured HDF5 storage for multi-atlas data
-- Modified fold preparation for experimental consistency
-- Improved handling of missing ROI values and normalization
+### License
 
-### License:
-This file is a derivative work licensed under the Apache License, Version 2.0. You may obtain a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0
+This repository includes code derived from work licensed under the Apache License 2.0.
+You may obtain a copy of the License at:
+http://www.apache.org/licenses/LICENSE-2.0
 
-### Disclaimer:
-This code is intended for research purposes only and is not a clinical diagnostic tool.
+### Disclaimer
+
+This code is intended for research purposes only and should not be used as a standalone system for clinical diagnosis.
+
+### Data Availability
+
+The ABIDE I dataset is publicly available through the Preprocessed Connectomes Project:
+http://preprocessed-connectomes-project.org/abide/
+
+All scripts and analysis code used in this work are available in this repository.
+A DOI-minted version of this repository will be provided via Zenodo for reproducibility.
