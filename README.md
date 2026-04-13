@@ -58,9 +58,8 @@ Authors: Xuehan Liu et al.
 
 ---
 
-## Modifications in This Work
-The original pipeline has been extended and modified for the MACAFNet framework:
-
+## Novelty of This Work
+The original pipeline has been extended and adapted for the proposed MACAFNet framework:
 - Integrated multi-atlas feature extraction (CC200, AAL, HO, EZ, TT, Dosenbach160)  
 - Adapted preprocessing pipeline for MACAFNet architecture  
 - Added structured HDF5 storage for multi-atlas data  
