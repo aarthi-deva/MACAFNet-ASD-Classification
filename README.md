@@ -9,7 +9,8 @@ The model leverages:
 - Context-aware fusion for improved classification performance
 
 > **Note:** This model is intended for research purposes only and is **not a clinical diagnostic tool**.
-
+## Citation: Kindly cite the following reference if using this article.
+Aarthi, D., Kannimuthu, S. MACAFNet transformer-based multi-atlas fusion framework for autism spectrum disorder classification using functional connectivity. Sci Rep (2026). https://doi.org/10.1038/s41598-026-50461-x
 ---
 
 ## Dataset
